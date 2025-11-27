@@ -10,7 +10,7 @@ import Reservas from "./pages/Reservas";
 import MinhasReservas from "./pages/MinhasReservas";
 import { ensureInitialData } from "./data";
 
-ensureInitialData(); // garante menu de exemplo ao iniciar
+ensureInitialData();
 
 export default function App(){
   return (
