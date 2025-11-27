@@ -18,14 +18,14 @@ const sampleMenu = [
     name: "Risoto de Cogumelos",
     desc: "Risoto cremoso com mix de cogumelos",
     price: "R$ 32,50",
-    img: ""   // ← coloque a URL da imagem aqui
+    img: "https://guiadacozinha.com.br/wp-content/uploads/2023/04/Risoto-de-cogumelos.jpg"
   },
   { 
     id: "m3",
     name: "Salada Tropical",
     desc: "Alface, frutas e molho especial",
     price: "R$ 21,00",
-    img: ""   // ← coloque a URL da imagem aqui
+    img: "https://www.receiteria.com.br/wp-content/uploads/salada-tropical-simples.jpg"
   }
 ];
 
