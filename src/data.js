@@ -4,10 +4,29 @@ export const LS_KEYS = {
   MENU: "rm_menu_v1"
 };
 
+// Cardápio com espaço para imagens
 const sampleMenu = [
-  { id: "m1", name: "Prato do Dia — Filé com batata", desc: "Carne grelhada, batata rústica", price: "R$ 28,90" },
-  { id: "m2", name: "Risoto de Cogumelos", desc: "Risoto cremoso com mix de cogumelos", price: "R$ 32,50" },
-  { id: "m3", name: "Salada Tropical", desc: "Alface, frutas e molho especial", price: "R$ 21,00" }
+  { 
+    id: "m1",
+    name: "Prato do Dia — Filé com batata",
+    desc: "Carne grelhada, batata rústica",
+    price: "R$ 28,90",
+    img: "https://sabores-new.s3.amazonaws.com/public/2024/11/file-com-batatas-coradas.jpg"   // ← coloque a URL da imagem aqui
+  },
+  { 
+    id: "m2",
+    name: "Risoto de Cogumelos",
+    desc: "Risoto cremoso com mix de cogumelos",
+    price: "R$ 32,50",
+    img: ""   // ← coloque a URL da imagem aqui
+  },
+  { 
+    id: "m3",
+    name: "Salada Tropical",
+    desc: "Alface, frutas e molho especial",
+    price: "R$ 21,00",
+    img: ""   // ← coloque a URL da imagem aqui
+  }
 ];
 
 export function ensureInitialData(){
