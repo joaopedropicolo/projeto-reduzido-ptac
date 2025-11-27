@@ -6,6 +6,7 @@ export default function Home(){
     <div>
       <div className="hero card">
         <h1>Bem-vindo ao Reservas de Mesas</h1>
+        <img src="https://blog.dipratos.com.br/wp-content/themes/yootheme/cache/3d/como-tirar-foto-de-comida-e-restaurantes-3d4fce8f.webp" width="870" height="600"/>
         <p className="small">Reserve sua mesa de forma rápida e segura.</p>
         <div style={{marginTop:12}}>
           <Link to="/reservas" className="btn">Fazer Reserva</Link>

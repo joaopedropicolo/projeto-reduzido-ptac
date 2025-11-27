@@ -6,7 +6,7 @@ export default function Header(){
     <header className="site-header">
       <div className="container header-inner">
         <div className="brand">
-          <div className="logo">RM</div>
+
           <div>
             <div style={{fontWeight:800}}>Reservas</div>
             <div style={{fontSize:12,color:"#666"}}>Faça sua reserva online</div>
