@@ -11,7 +11,7 @@ const sampleMenu = [
     name: "Prato do Dia — Filé com batata",
     desc: "Carne grelhada, batata rústica",
     price: "R$ 28,90",
-    img: "https://sabores-new.s3.amazonaws.com/public/2024/11/file-com-batatas-coradas.jpg"   // ← coloque a URL da imagem aqui
+    img: "https://sabores-new.s3.amazonaws.com/public/2024/11/file-com-batatas-coradas.jpg"
   },
   { 
     id: "m2",
