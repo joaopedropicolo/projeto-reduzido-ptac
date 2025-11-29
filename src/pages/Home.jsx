@@ -4,9 +4,14 @@ import { Link } from "react-router-dom";
 export default function Home(){
   return (
     <div>
+      <h1>RESTAURANTE TRIO PARADA DURA</h1>
+
       <div className="hero card">
+
         <h1>Bem-vindo ao Reservas de Mesas</h1>
-        <img src="https://blog.dipratos.com.br/wp-content/themes/yootheme/cache/3d/como-tirar-foto-de-comida-e-restaurantes-3d4fce8f.webp" width="870" height="600"/>
+        
+        <img src="https://blog.dipratos.com.br/wp-content/themes/yootheme/cache/3d/como-tirar-foto-de-comida-e-restaurantes-3d4fce8f.webp" width="900" height="400"/>
+        
         <p className="small">Reserve sua mesa de forma rápida e segura.</p>
         <div style={{marginTop:12}}>
           <Link to="/reservas" className="btn">Fazer Reserva</Link>
